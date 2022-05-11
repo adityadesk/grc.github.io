@@ -24,6 +24,7 @@
     <link href="assets/css/theme-plugins.min.css" rel="stylesheet">
     <!-- Main Theme CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link class="color-scheme-link" rel="stylesheet" href="assets/css/themes/color_shade_9.css">
     <!-- Responsive Theme CSS -->
     <link href="assets/css/responsive.css" rel="stylesheet">
 
@@ -47,95 +48,153 @@
     </div>
     <!-- Page loader End -->
 
-    <header class="wow fadeInDown">
+    <header class="header-two wow fadeInDown header-logo-top">
         <div class="top-bar d-flex align-items-center text-md-left">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col">
-                        <i class="icofont-google-map"></i> 254 Street Avenue, Los Angeles, LA 2415 US
+                    <div class="col-lg-2 d-flex col-6">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo_footer.svg" alt="">
+                        </a>
                     </div>
-                    <div class="col-md-auto">
+                    <div class="col-auto ms-auto">
 
-                        <span class="me-3"><i class="icofont-ui-touch-phone"></i> +00 41 895 785 6985</span>
-
-                        <span class="me-3"><i class="icofont-ui-email"></i> Email Us</span>
-                        <!-- Topbar Language Dropdown Start -->
-                        <div class="dropdown d-inline-flex lang-toggle">
-                            <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                <img src="assets/images/us.svg" alt="" class="dropdown-item-icon">
-                                <span class="d-inline-block d-lg-none">US</span>
-                                <span class="d-none d-lg-inline-block">United States</span> <i
-                                    class="icofont-rounded-down"></i>
-                            </a>
-                            <div class="dropdown-menu dropdownhover-bottom dropdown-menu-end" role="menu">
-                                <a class="dropdown-item active" href="#">English</a>
-                                <a class="dropdown-item" href="#">Deutsch</a>
-                                <a class="dropdown-item" href="#">Español&lrm;</a>
+                        <div class="d-inline-flex align-items-center">
+                            <div class="top-text">
+                                <small class="txt-ligt-gray">Address</small>
+                                <span class="fw-7 txt-blue">Beri Road, Opp. Sec.2, Bahadurgarh.</span>
                             </div>
+                            <div class="top-text">
+                                <small class="txt-ligt-gray">Emaii Us</small>
+                                <span class="fw-6 txt-blue"><a href="mailto:grcbahadurgarh@gmail.com" class="txt-blue">grcbahadurgarh@gmail.com</a></span>
+                            </div>
+                            <div class="top-text">
+                                <small class="txt-ligt-gray">Phone Number</small>
+                                <a class="fw-7 txt-blue px-1" href="tel:+917404808575">+91 740 4808 575</a>
+                                <a class="fw-7 txt-blue px-1" href="tel:+919350323380">+91 935 0323 380</a>
+                            </div>
+
+                            <!-- Topbar Language Dropdown Start -->
+                            <div class="dropdown d-inline-flex lang-toggle order-lg-last ms-3">
+                                <a href="#" class="dropdown-toggle btn" data-bs-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <img src="assets/images/Flag_of_India.svg" alt="" class="dropdown-item-icon">
+                                    <span class="d-inline-block d-lg-none">IN</span>
+                                    <span class="d-none d-lg-inline-block">India</span> <i
+                                        class="icofont-rounded-down"></i>
+                                </a>
+                                <div class="dropdown-menu dropdownhover-bottom dropdown-menu-end" role="menu">
+                                    <a class="dropdown-item active" href="#">HARIDWAR</a>
+                                    <a class="dropdown-item" href="#">DELHI</a>
+                                    <a class="dropdown-item" href="#">NOIDA</a>
+                                    <a class="dropdown-item" href="#">GURGAON</a>
+                                    <a class="dropdown-item" href="#">MUMBAI</a>
+                                    <a class="dropdown-item" href="#">KOLKATA</a>
+                                </div>
+                            </div>
+                            <!-- Topbar Language Dropdown End -->
+
                         </div>
-                        <!-- Topbar Language Dropdown End -->
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Main Navigation Start -->
-        <nav class="header-fullpage navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo_footer.svg" alt=""></a>
-                
-                <!-- Topbar Request Quote Start -->                
-                <div class="d-flex order-lg-last align-items-center request-btn">
+        <!-- Main Navigation Start -->
+        <nav class="navbar navbar-expand-lg header-fullpage nav-light">
+            <div class="container text-nowrap bdr-nav">
+                <span class="order-lg-last d-inline-flex request-btn">
                     <a class="nav-link" href="#" id="search_home"><i class="icofont-search"></i></a>
-                    <a class="btn-theme icon-left bg-navy-blue no-shadow align-self-center" href="#" role="button"
-                        data-bs-toggle="modal" data-bs-target="#request_popup"><i class="icofont-list"></i><span
-                            class="d-none d-sm-inline-block"> Request Quote</span></a>
-                    <button class="navbar-toggler x collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                </span>
+
+
+                <div class="d-inline-flex request-btn order-lg-last">
+                    <a class="btn-theme icon-left bg-orange no-shadow d-none d-lg-inline-block align-self-center"
+                        href="#" role="button" data-bs-toggle="modal" data-bs-target="#request_popup"><i
+                            class="icofont-page"></i> Request Quote</a>
                 </div>
+                <!-- Topbar Request Quote Start -->
+
+                <!-- Toggle Button Start -->
+                <button class="navbar-toggler x collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Toggle Button End -->
+
                 <!-- Topbar Request Quote End -->
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                        </li>
+
+                      
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Home <i
+                            <a class="nav-link" href="about-us.html" data-bs-toggle="dropdown" aria-expanded="false">About Us <i
                                 class="icofont-rounded-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="index.html">Home Layout 1</a></li>
-                                <li><a class="dropdown-item" href="index-2.html">Home Layout 2</a></li>
-                                <li><a class="dropdown-item" href="index-3.html">Home Layout 3</a></li>
-                                <li><a class="dropdown-item" href="index-4.html">Home Layout 4</a></li>
-                                <li><a class="dropdown-item" href="index-5.html">Home Layout 5</a></li>
-                                <li><a class="dropdown-item" href="index-6.html">Home Layout 6</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-item dropdown-submenu-toggle icon-left">Third Level Menu <i
-                                        class="icofont-rounded-right"></i></a>
-                                    <ul class="dropdown-menu dropdown-submenu">
-                                        <li><a href="#" class="dropdown-item">Action</a></li>
-                                        <li><a href="#" class="dropdown-item">Another action</a></li>
-                                        <li><a href="#" class="dropdown-item">Something else here</a></li>
-                                    </ul>
-                                </li>
+                               
+                            <ul class="dropdown-menu row">
+                                <li><a class="dropdown-item" href="about-us.html">Proflie</a></li>
+                                <li><a class="dropdown-item" href="about-us.html">Certification</a></li>
+                                <li><a class="dropdown-item" href="services.html">Network</a></li>
+                                
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Pages <i
+
+                        <li class="nav-item dropdown dropdown-mega position-static">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Services <i
                                 class="icofont-rounded-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
-                                <li><a class="dropdown-item" href="services.html">Services</a></li>
-                                <li><a class="dropdown-item" href="shortcodes-element.html">Shortcode Elements</a></li>
-                                <li><a class="dropdown-item" href="typography.html">Typography</a></li>
-                                <li><a class="dropdown-item" href="request-page.html">Request Quote</a></li>
-                                <li><a class="dropdown-item" href="pricing-plan.html">Our Pricing</a></li>
-                                <li><a class="dropdown-item" href="404-page.html">404 Page</a></li>
-                            </ul>
-                        </li>
+                            <div class="dropdown-menu">
+                              <div class="mega-content px-4">
+                                <div class="container-fluid">
+                                  <div class="row">
+                                    <div class="col-12 col-sm-4 col-md-4 py-4">
+                                      <!-- <h5>Our Services</h5> -->
+                                      <div class="list-group">
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-navy-blue icon-left" href="service-details.html"> <i class="icofont-rounded-right"></i> Air Freight</a>
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-navy-blue icon-left" href="service-details.html"><i class="icofont-rounded-right"></i> Sea Freight</a>
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-navy-blue icon-left" href="service-details.html"><i class="icofont-rounded-right"></i> Break Bulk / Consolidation</a>
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-navy-blue icon-left" href="service-details.html"><i class="icofont-rounded-right"></i> Warehouse / Transportation</a>
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-navy-blue icon-left" href="service-details.html"><i class="icofont-rounded-right"></i> DGR Handling / Packaging</a>
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-navy-blue icon-left" href="service-details.html"><i class="icofont-rounded-right"></i> Pharma & Cold Chain</a>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4 col-md-4 py-4">
+                                      <!-- <h5>Card</h5> -->
+                                      <div class="card">
+                                  <img src="assets/images/home/air.jpg" class="img-fluid" alt="image">
+                                  <div class="card-body">
+                                    <p class="card-text">Being the closest IATA & Custom Broker at Mumbai Air Cargo Complex and member of allied associations, 
+                                        we represents international Airlines to Air Freight Export & Import of cargo.</p>
+                                  </div>
+                                </div>
+                                    </div>
+                                    <!-- <div class="col-12 col-sm-4 col-md-3 py-4">
+                                      <h5>Lot of Pages</h5>
+                                      <p>Lorem ipsum dolo sit achmet muhamed borlan de irtka. aditya
+                                    </div> -->
+                                    <div class="col-12 col-sm-12 col-md-4 py-4">
+                                      <!-- <h5>Damn, so many</h5> -->
+                                      <div class="list-group">
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-light-theme light" href="#">Enquiry</a>
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-light-theme light" href="#">Tools</a>
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-light-theme light" href="#">Terms & Conditions</a>
+                                        <a class="list-group-item mr-2 mb-3 btn-theme bg-light-theme light" href="#">Privacy</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Projects <i
                                 class="icofont-rounded-down"></i></a>
@@ -163,12 +222,59 @@
                                 <li><a class="dropdown-item" href="contact-us-option.html">Contact Us Option</a></li>
                             </ul>
                         </li>
+
+                        <!-- <li class="nav-item dropdown dropdown-mega position-static">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Megamenu
+                                <i class="icofont-rounded-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                              <div class="mega-content px-4">
+                                <div class="container-fluid">
+                                  <div class="row">
+                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                      <h5>Pages</h5>
+                                      <div class="list-group">
+                                        <a class="list-group-item" href="#">Accomodations</a>
+                                        <a class="list-group-item" href="#">Terms & Conditions</a>
+                                        <a class="list-group-item" href="#">Privacy</a>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                      <h5>Card</h5>
+                                      <div class="card">
+                                  <img src="assets/images/about_img.png" class="img-fluid" alt="image">
+                                  <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                         the bulk of the card's content. aditya test</p>
+                                  </div>
+                                </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                      <h5>Lot of Pages</h5>
+                                      <p>Lorem ipsum dolo sit achmet muhamed borlan de irtka. aditya
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-3 py-4">
+                                      <h5>Damn, so many</h5>
+                                      <div class="list-group">
+                                        <a class="list-group-item" href="#">Accomodations</a>
+                                        <a class="list-group-item" href="#">Terms & Conditions</a>
+                                        <a class="list-group-item" href="#">Privacy</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li> -->
                         
                     </ul>
-                    <!-- Main Navigation End -->                    
+                    <!-- Main Navigation End -->
                 </div>
+
+
             </div>
         </nav>
+        <!-- Main Navigation End -->
         <!-- Main Navigation End -->
     </header>
 
@@ -204,34 +310,25 @@
                             <div class="col-md-12 mb-5">
                                 <div class="text-left">
                                     <img src="assets/images/blog_single.jpg" alt="" class="rounded mb-4">
-                                    <h4 class="h4-md mb-3 txt-blue fw-7">Logistics Should Brace for Changes in Cargo
-                                    </h4>
-                                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium
-                                        doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore
-                                        veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim
-                                        ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia
-                                        consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque
-                                        porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur,
-                                        adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et
-                                        dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                                        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                                        consequatur?</p>
+                                    <h4 class="h4-md mb-3 txt-blue fw-7">AIR FREIGHT </h4>
+                                    <p>Being the closest IATA & Custom Broker at Mumbai Air Cargo Complex and member 
+                                        of allied associations, we represents international Airlines to Air Freight 
+                                        Export & Import of cargo. Our intimate relations with Airlines and passion 
+                                        of our people’s excellence, makes a fine blend for delivering unique solutions, 
+                                        competitive rates & fine line logistics attributes.
+                                    </p>
 
-                                    <p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil
-                                        molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla
-                                        pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui
-                                        blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas
-                                        molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in
-                                        culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et
-                                        harum quidem rerum facilis est et expedita distinctio.</p>
+                                    <p>our cargo be it Airport to Airport or Door to Door, for prompt movement, we have 
+                                        dedicated team & active network to provide round the clock services as per priority implies.
+                                    </p>
 
-                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit,
-                                        quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda
-                                        est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis
-                                        aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et
-                                        molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut
-                                        aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus
-                                        asperiores repellat.</p>
+                                    <p>We have full team of professionals to handle DANGEROUS GOODS shipments, including packaging. 
+                                        Our efficient team login to get online shipment document processing, status of cargo, 
+                                        forwarding with onward route feasibility information and confirmations of delivery at the 
+                                        ultimate destination. Appreciation for an exceptional association given by leading airlines like, 
+                                        FedEx, Cathay Pacific, Ethiopian Egypt, Korean, Emirates, KLM, British Airways, Air India 
+                                        certifies our dedication to provide service.
+                                    </p>
 
                                 </div>
 
@@ -239,14 +336,21 @@
                             </div>
 
                             <div class="col-sm-6">
-                                <h3 class="h3-md fw-7 mb-4 txt-blue">Benefit of Service</h3>
+                                <h3 class="h3-md fw-7 mb-4 txt-blue">We assure to keep you sure.
+                                </h3>
                                 <ul class="list-unstyled icons-listing theme-orange mb-0">
-                                    <li><i class="icofont-check"></i>Deliver Environmentally Responsible Client Services
-                                    </li>
+                                    <li><i class="icofont-check"></i>Deliver Environmentally Responsible Client Services</li>
                                     <li><i class="icofont-check"></i>Be an Active Community Partner</li>
                                     <li><i class="icofont-check"></i>Drive Continuous Improvement</li>
                                     <li><i class="icofont-check"></i>Clearance and compliance service</li>
                                     <li><i class="icofont-check"></i>Clearance and compliance service</li>
+                                    <li><i class="icofont-check"></i>Top Agent Awards by many airlines</li>
+                                    <li><i class="icofont-check"></i>Most Competitive rates for customized solution</li>
+                                    <!-- <li><i class="icofont-check"></i>Enhanced quality for speed and accuracy</li>
+                                    <li><i class="icofont-check"></i>Dangerous goods handling</li>
+                                    <li><i class="icofont-check"></i>Consolidation Services</li>
+                                    <li><i class="icofont-check"></i>Night time and weekend services</li>
+                                    <li><i class="icofont-check"></i>Door to Door & delivering</li> -->
                                 </ul>
                             </div>
 
@@ -254,17 +358,15 @@
                                 <img src="assets/images/blog_img_4.jpg" alt="" class="rounded mb-4">
                             </div>
 
-                            <div class="col-sm-12 mb-4">
+                            <!-- <div class="col-sm-12 mb-4">
                                 <h3 class="h3-md fw-7 mb-4 txt-blue">More information</h3>
 
                                 <div class="theme-collapse arrow-right-border">
-                                    <!-- Toggle Links 1 -->
+                                    
                                     <div class="toggle">
                                         <i class="icofont-rounded-down"></i> What is do i have to tell you a few lorem?
                                     </div>
-                                    <!-- Toggle Links 1 -->
-
-                                    <!-- Toggle Content 1 -->
+                                    
                                     <div class="collapse">
                                         <div class="content">
                                             Nunc non mollis nulla. Sed tconsectetur
@@ -273,16 +375,12 @@
                                             sollicitudin, lorem quis. Vivamus ac ultrices diam,
                                         </div>
                                     </div>
-                                    <!-- Toggle Content 1 -->
-
-                                    <!-- Toggle Links 2 -->
+                                    
                                     <div class="toggle">
                                         <i class="icofont-rounded-down"></i> I have a technical problem or support issue
                                         I need resolved, who do I email?
                                     </div>
-                                    <!-- Toggle Links 2 -->
-
-                                    <!-- Toggle Content 2 -->
+                                    
                                     <div class="collapse">
                                         <div class="content">
                                             Nunc non mollis nulla. Sed tconsectetur
@@ -291,16 +389,12 @@
                                             sollicitudin, lorem quis. Vivamus ac ultrices diam,
                                         </div>
                                     </div>
-                                    <!-- Toggle Content 2 -->
-
-                                    <!-- Toggle Links 3 -->
+                                    
                                     <div class="toggle">
                                         <i class="icofont-rounded-down"></i> What other services are you compatible
                                         with?
                                     </div>
-                                    <!-- Toggle Links 3 -->
-
-                                    <!-- Toggle Content 3 -->
+                                    
                                     <div class="collapse">
                                         <div class="content">
                                             Nunc non mollis nulla. Sed tconsectetur
@@ -309,7 +403,7 @@
                                             sollicitudin, lorem quis. Vivamus ac ultrices diam,
                                         </div>
                                     </div>
-                                    <!-- Toggle Content 3 -->
+                                    
 
                                 </div>
 
@@ -319,7 +413,7 @@
                                 <h3 class="h3-md fw-7 mb-4">Still open questions?</h3>
                                 <a href="#" class="mr-2 mb-3 btn-theme bg-orange">Ask Now <i
                                         class="icofont-rounded-right"></i></a>
-                            </div>
+                            </div> -->
 
 
                         </div>
@@ -333,19 +427,19 @@
 
                             <!-- Sidebar Primary Start -->
                             <div class="sidebar-primary col-lg-12 col-md-6">
-                                <!-- Search Widget Start -->
-                                <div class="widget-wrap">
+                                
+                                <!-- <div class="widget-wrap">
                                     <h3 class="h3-md fw-7 mb-4">Search</h3>
                                     <form class="flex-nowrap col ml-auto footer-subscribe p-0">
                                         <input type="text" class="form-control" placeholder="Search …">
                                         <button type="submit" class="btn btn-theme bg-orange"><i
                                                 class="icofont-search p-0"></i></button>
                                     </form>
-                                </div>
-                                <!-- Search Widget End -->
+                                </div> -->
+                                
 
                                 <!-- Recent Post Widget Start -->
-                                <div class="widget-wrap">
+                                <!-- <div class="widget-wrap">
                                     <h3 class="h3-md fw-7 mb-4">Recent Posts</h3>
                                     <div class="blog-list-footer">
                                         <ul class="list-unstyled">
@@ -380,7 +474,7 @@
                                         </ul>
 
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Recent Post Widget End -->
 
                                 <!-- Sidebar Support Widget Start -->
@@ -399,33 +493,51 @@
                             <div class="sidebar-secondary col-lg-12 col-md-6">
                                 <!-- Recent Post Widget Start -->
                                 <div class="widget-wrap">
-                                    <h3 class="h3-md fw-7 mb-4">Recent Posts</h3>
+                                    <h3 class="h3-md fw-7 mb-4">OUR BRANCHES</h3>
                                     <div class="blog-list-categories">
                                         <ul class="list-unstyled">
-                                            <li class="active"><a href="http://www.mannatstudio.com/"> Business</a></li>
-                                            <li><a href="#">Logistics</a></li>
-                                            <li><a href="#">News</a></li>
-                                            <li><a href="#">Recent</a></li>
-                                            <li><a href="#">Transport</a></li>
-                                            <li><a href="#">Warehousing</a></li>
+                                            <!-- <li ><a href="http://www.mannatstudio.com/"> Business</a></li> -->
+                                            <li ><a href="#">Delhi</a></li>
+                                            <li><a href="#">Gurgaon</a></li>
+                                            <li><a href="#">Noida</a></li>
+                                            <li><a href="#">Haridwar, Uttarakhand</a></li>
+                                            <li><a href="#">Dehradun</a></li>
+                                            <li><a href="#">Mumbai</a></li>
+                                            <li><a href="#">Kolkata</a></li>
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="widget-wrap">
+                                    <h3 class="h3-md fw-7 mb-4">OUR TOP SERVICES</h3>
+                                    <div class="blog-list-categories">
+                                        <ul class="list-unstyled">
+                                            <!-- <li ><a href="http://www.mannatstudio.com/"> Business</a></li> -->
+                                            <li ><a href="#"> Sea Freight Forwarding in Haridwar, Delhi, Noida, Gurgaon</a></li>
+                                            <li><a href="#">Air Freight Forwarding in Haridwar, Delhi, Noida, Gurgaon
+                                            </a></li>
+                                            <li><a href="#">Road Transportation Services in Haridwar, Delhi, Noida, Gurgaon</a></li>
+                                            <li><a href="#"> Railway Logistics services in Haridwar, Delhi, Noida, Gurgaon</a></li>
+                                            <li><a href="#"> Packaging & Storing services in Haridwar, Delhi, Noida, Gurgaon</a></li>
+                                            <li><a href="#"> Warehousing services in Haridwar, Delhi, Noida, Gurgaon</a></li>
+                                        </ul>
+                                    </div>
+                                </div>    
+
                                 <!-- Recent Post Widget End -->
 
                                 <!-- Photostream Widget Start -->
-                                <div class="widget-wrap">
+                                <!-- <div class="widget-wrap">
                                     <h3 class="h3-md fw-7 mb-4">Our Photostream</h3>
                                     <ul id="basicuse" class="photo-thumbs"></ul>
-                                </div>
+                                </div> -->
                                 <!-- Photostream Widget End -->
 
                                 <!-- Text Widget Widget Start -->
-                                <div class="widget-wrap">
+                                <!-- <div class="widget-wrap">
                                     <h3 class="h3-md fw-7 mb-4">Text Widget</h3>
                                     <p>Explain to you how all this mistaken idea of hovered link and praising pain was
                                         born and I will give you a complete count of the system expound</p>
-                                </div>
+                                </div> -->
                                 <!-- Text Widget Widget End -->
                             </div>
                             <!-- Sidebar Secondary Start -->
@@ -489,15 +601,15 @@
     <footer class="wide-tb-70 bg-light-theme pb-0">
         <div class="container">
             <div class="row">
-
+    
                 <!-- Column First -->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="logo-footer">
                         <img src="assets/images/logo_footer.svg" alt="">
                     </div>
                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                         nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
+    
                     <h3 class="footer-heading">We're Social</h3>
                     <div class="social-icons">
                         <a href="#"><i class="icofont-facebook"></i></a>
@@ -507,9 +619,9 @@
                     </div>
                 </div>
                 <!-- Column First -->
-
+    
                 <!-- Column Second -->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h3 class="footer-heading">Quick Navigation</h3>
                     <div class="footer-widget-menu">
                         <ul class="list-unstyled">
@@ -523,62 +635,93 @@
                     </div>
                 </div>
                 <!-- Column Second -->
-
+    
                 <!-- Column Third -->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h3 class="footer-heading">Get In Touch</h3>
                     <div class="footer-widget-contact">
                         <div class="media mb-3">
                             <i class="icofont-google-map me-3"></i>
-                            <div class="media-body">Envato Pty Ltd, 13/2 Elizabeth
-                                St Melbourne VIC 3000, Australia</div>
+                            <div class="media-body">Beri Road, Opp. Sec.2, near Modern School, Bahadurgarh(124507)</div>
                         </div>
                         <div class="media mb-3">
                             <i class="icofont-smart-phone me-3"></i>
                             <div class="media-body">
-                                <div>+1 (408) 786 - 5117 </div>
-                                <div>+1 (408) 786 - 5227 </div>
+                                <div>+91 740 4808 575</div>
+                                <div>+91 935 0323 380</div>
                             </div>
                         </div>
                         <div class="media mb-3">
                             <i class="icofont-ui-email me-3"></i>
                             <div class="media-body">
-                                <div><a href="#">info@logzee.com</a></div>
-                                <div><a href="#">support@logzee-team.com</a></div>
+                                <div><a href="#">info@Ganpati-Road-Carrier.com</a></div>
+                                <div><a href="#">support@Ganpati-Road-Carrier-team.com</a></div>
                             </div>
                         </div>
                         <div class="media mb-3">
                             <i class="icofont-clock-time me-3"></i>
                             <div class="media-body">
                                 <div><strong>Mon - Fri</strong></div>
-                                <div>10:00 Am - 6:00 PM EST</div>
+                                <div>10:00 Am - 8:00 PM IST</div>
+                                <div><strong>Sat - Sun</strong></div>
+                                <div>12:00 Am - 6:00 PM IST</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Column Third -->
-
+    
                 <!-- Column Fourth -->
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="footer-heading">Recent Tweets</h3>
-                    <div class="footer-widget-tweet">
-                        <div class="d-flex align-items-start">
-                            <i class="icofont-twitter txt-ligt-gray icofont-2x"></i>
-                            <div class="tweet-stream"></div>
-                        </div>
-
-                        <div>
-                            <a href="#" class="btn-theme icon-left"><i class="icofont-twitter"></i> Follow @twitter</a>
-                        </div>
+    
+                <!-- <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
+                    <h3 class="footer-heading">Recent Post</h3>
+                    <div class="blog-list-footer">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="media">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/post_thumb_1.jpg" alt="" class="rounded-circle">
+                                    </div>
+                                    <div class="media-body post-text">
+                                        <h5 class="mb-3 h5-md"><a href="#">Liberalisation of air cargo</a></h5>
+                                        <p>Far far away, behind the word mountains, far from the countries.</p>
+    
+                                        <div class="comment-box">
+                                            <span><i class="icofont-ui-calendar"></i> 04.10.2013</span>
+                                            <span><a href="#"><i class="icofont-speech-comments"></i> 25</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="media">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/post_thumb_2.jpg" alt="" class="rounded-circle">
+                                    </div>
+                                    <div class="media-body post-text">
+                                        <h5 class="mb-3 h5-md"><a href="#">New Ocean Freight Rules</a></h5>
+                                        <p>Far far away, behind the word mountains, far from the countries.</p>
+    
+                                        <div class="comment-box">
+                                            <span><i class="icofont-ui-calendar"></i> 04.10.2013</span>
+                                            <span><a href="#"><i class="icofont-speech-comments"></i> 25</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+    
                     </div>
-                </div>
+                </div> -->
+    
+               
                 <!-- Column Fourth -->
-
-
-
+    
+    
+    
             </div>
         </div>
-
+    
         <div class="copyright-wrap bg-navy-blue wide-tb-30">
             <div class="container">
                 <div class="row text-md-start text-center">
@@ -587,7 +730,7 @@
                             href="#">Faq's</a>
                     </div>
                     <div class="col-sm-12 col-md-6 text-md-end text-center">
-                        Designed by <a href="#" rel="nofollow">MannatStudio</a> © 2021 All Rights Reserved
+                        © 2022 All Rights Reserved
                     </div>
                 </div>
             </div>
